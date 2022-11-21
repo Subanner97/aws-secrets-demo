@@ -1,0 +1,7 @@
+aws:
+    secretsmanager:
+        enabled: true
+        name: digital1
+        prefix: test
+        endpoint: secretsmanager.us-east-1.amazonaws.com
+        defaultContext: application
