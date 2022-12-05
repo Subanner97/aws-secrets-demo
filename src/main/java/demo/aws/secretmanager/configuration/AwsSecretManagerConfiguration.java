@@ -8,13 +8,13 @@ import lombok.Setter;
 
 @Configuration
 public class AwsSecretManagerConfiguration {
-
-	@Getter @Setter
-	@Value("${api-key1}")
-	private String user;
-	
-	@Getter @Setter
-	@Value("${api-key2}")
-	private String password;	
+//
+//	@Getter @Setter
+//	@Value("${api-key1}")
+//	private String user;
+//	
+//	@Getter @Setter
+//	@Value("${api-key2}")
+//	private String password;	
 
 }

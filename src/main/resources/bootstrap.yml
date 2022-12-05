@@ -1,3 +1,11 @@
+spring:
+  config:
+    import: http://localhost:8888/
+  application:
+    name: aws-secret-manager-demo
+  profiles:
+    active:
+    - dev
 aws:
     secretsmanager:
         enabled: true
